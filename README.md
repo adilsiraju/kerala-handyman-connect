@@ -1,8 +1,14 @@
-# Welcome to your Lovable project
+# Kerala Handyman Connect
 
-## Project info
+A modern web application connecting Kerala residents with skilled handymen and service providers. This platform streamlines the process of finding and booking reliable household services in Kerala.
 
-**URL**: https://lovable.dev/projects/f902efcb-5b62-466b-933b-daa9fdfcfd96
+## Overview
+
+Kerala Handyman Connect is a user-friendly platform that:
+- Connects local residents with verified handymen and service providers
+- Offers easy booking and scheduling of services
+- Provides a transparent review and rating system
+- Features a wide range of household services
 
 ## How can I edit this code?
 
@@ -50,24 +56,53 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## Tech Stack
 
-This project is built with:
+This project leverages modern web technologies for optimal performance and user experience:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Frontend Framework**: React with TypeScript
+- **Build Tool**: Vite for fast development and optimized production builds
+- **UI Components**: shadcn-ui for consistent and accessible components
+- **Styling**: Tailwind CSS for utility-first styling
+- **Type Safety**: TypeScript for enhanced development experience and code reliability
 
-## How can I deploy this project?
+### Key Features
+- Responsive design for all device sizes
+- Modern and accessible UI components
+- Fast page loads and navigation
+- Type-safe development environment
 
-Simply open [Lovable](https://lovable.dev/projects/f902efcb-5b62-466b-933b-daa9fdfcfd96) and click on Share -> Publish.
+## Getting Started
 
-## Can I connect a custom domain to my Lovable project?
+To run this project locally:
 
-Yes, you can!
+1. Clone the repository:
+   ```sh
+   git clone [repository-url]
+   ```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+The application will be available at `http://localhost:5173`
+
+## Building for Production
+
+To create a production build:
+
+```sh
+npm run build
+```
+
+This will generate optimized files in the `dist` directory ready for deployment.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
