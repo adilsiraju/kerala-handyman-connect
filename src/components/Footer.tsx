@@ -1,5 +1,6 @@
 
 import { Facebook, Instagram, Twitter, MessageCircle, Phone, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -9,14 +10,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center mb-4">
+            <Link to="/" className="flex items-center mb-4">
               <img 
                 src="/lovable-uploads/746691ab-aeae-40dc-b1fd-3ff89bfc273b.png" 
                 alt="HandyKerala Logo" 
                 className="h-8 w-8 mr-3"
               />
               <h3 className="text-xl font-bold font-poppins">HandyKerala</h3>
-            </div>
+            </Link>
             <p className="text-white/80 mb-4">
               Malayalikalude Nammalude Handyman App. Professional home services 
               delivered by trusted local experts across Thalassery.
@@ -38,12 +39,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold font-poppins mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-white/80 hover:text-kerala-yellow transition-colors">Home</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-kerala-yellow transition-colors">Our Services</a></li>
-              <li><a href="#booking" className="text-white/80 hover:text-kerala-yellow transition-colors">Book Now</a></li>
-              <li><a href="#about" className="text-white/80 hover:text-kerala-yellow transition-colors">About Us</a></li>
-              <li><a href="#partner" className="text-white/80 hover:text-kerala-yellow transition-colors">Join as Partner</a></li>
-              <li><a href="#contact" className="text-white/80 hover:text-kerala-yellow transition-colors">Contact</a></li>
+              <li><Link to="/" className="text-white/80 hover:text-kerala-yellow transition-colors">Home</Link></li>
+              <li><Link to="/services" className="text-white/80 hover:text-kerala-yellow transition-colors">Our Services</Link></li>
+              <li><Link to="/about" className="text-white/80 hover:text-kerala-yellow transition-colors">About Us</Link></li>
+              <li><Link to="/contact" className="text-white/80 hover:text-kerala-yellow transition-colors">Contact</Link></li>
+              <li><Link to="/partner" className="text-white/80 hover:text-kerala-yellow transition-colors">Join as Partner</Link></li>
             </ul>
           </div>
 

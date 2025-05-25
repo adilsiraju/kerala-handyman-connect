@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { MessageCircle, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const coreServices = [
@@ -92,15 +93,16 @@ const Services = () => {
           <p className="text-kerala-charcoal opacity-70 mb-6">
             Looking for other services like AC repair, painting, or appliance fixing?
           </p>
-          <Button 
-            size="lg"
-            variant="outline"
-            className="border-2 border-kerala-green text-kerala-green hover:bg-kerala-green hover:text-white font-medium px-8 py-4 rounded-xl"
-            onClick={() => window.open('https://wa.me/919876543210?text=Hi! I need a custom service in Thalassery')}
-          >
-            View All Services
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
+          <Link to="/services">
+            <Button 
+              size="lg"
+              variant="outline"
+              className="border-2 border-kerala-green text-kerala-green hover:bg-kerala-green hover:text-white font-medium px-8 py-4 rounded-xl"
+            >
+              View All Services
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
