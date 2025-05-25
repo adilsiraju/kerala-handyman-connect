@@ -27,7 +27,7 @@ const Navbar = () => {
               />
               <div>
                 <h1 className="text-xl font-bold text-kerala-green font-poppins">HandyKerala</h1>
-                <p className="text-xs text-kerala-charcoal opacity-70">Thalassery</p>
+                <p className="text-xs text-kerala-charcoal opacity-70">Starting in Thalassery</p>
               </div>
             </Link>
           </div>

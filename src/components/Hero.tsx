@@ -18,7 +18,7 @@ const Hero = () => {
               
               <p className="text-xl lg:text-2xl text-kerala-charcoal mb-4 flex items-center justify-center lg:justify-start">
                 <MapPin className="w-5 h-5 mr-2 text-kerala-green" />
-                Now serving homes in Thalassery 🛠️
+                Now serving homes in Thalassery
               </p>
               
               <p className="text-lg text-kerala-charcoal opacity-80 mb-10 max-w-2xl leading-relaxed">
