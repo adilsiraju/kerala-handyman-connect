@@ -17,9 +17,8 @@ const Footer = () => {
                 className="h-8 w-8 mr-3"
               />
               <h3 className="text-xl font-bold font-poppins">HandyKerala</h3>
-            </Link>
-            <p className="text-white/80 mb-4">
-              Malayalikalude Nammalude Handyman App. Professional home services 
+            </Link>            <p className="text-white/80 mb-4">
+              Malayalikalude Swantham Handyman App. Professional home services 
               delivered by trusted local experts across Thalassery.
             </p>
             <div className="flex space-x-4">
