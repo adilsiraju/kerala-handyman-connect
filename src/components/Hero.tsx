@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="text-center lg:text-left">
               <h1 className="text-4xl lg:text-6xl font-bold text-kerala-charcoal font-poppins mb-6 animate-fade-in">
                 <span className="text-kerala-green">Malayalikalude</span><br />
-                <span className="text-kerala-yellow">Nammalude</span><br />
+                <span className="text-kerala-yellow">Swantham</span><br />
                 Handyman App
               </h1>
               
