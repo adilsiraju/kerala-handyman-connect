@@ -5,9 +5,6 @@ import Services from '@/components/Services';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Testimonials from '@/components/Testimonials';
 import BookingForm from '@/components/BookingForm';
-import JoinPartner from '@/components/JoinPartner';
-import About from '@/components/About';
-import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -19,9 +16,6 @@ const Index = () => {
       <WhyChooseUs />
       <Testimonials />
       <BookingForm />
-      <JoinPartner />
-      <About />
-      <Contact />
       <Footer />
     </div>
   );

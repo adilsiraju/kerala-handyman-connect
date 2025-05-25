@@ -17,72 +17,57 @@ const Testimonials = () => {
       rating: 5,
       text: 'മലയാളത്തിൽ സംസാരിക്കാൻ കഴിയുന്നത് വളരെ സുഖകരമായിരുന്നു. വീടിന്റെ painting work നന്നായി ചെയ്തു തന്നു.',
       service: 'Painting'
-    },
-    {
-      name: 'Anitha Menon',
-      location: 'Thalassery',
-      rating: 5,
-      text: 'Quick response for AC repair during summer. The technician was knowledgeable and explained everything clearly. Highly recommend!',
-      service: 'AC Services'
-    },
-    {
-      name: 'Mohammed Rashid',
-      location: 'Mahe',
-      rating: 5,
-      text: 'Electrical work done perfectly. No mess, clean job, and reasonable rates. HandyKerala is now my go-to for home services.',
-      service: 'Electrical'
     }
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 lg:py-32 bg-white">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold text-kerala-charcoal font-poppins mb-4">
+        <div className="text-center mb-20">
+          <h2 className="text-3xl lg:text-5xl font-bold text-kerala-charcoal font-poppins mb-6">
             What Our <span className="text-kerala-green">Customers</span> Say
           </h2>
-          <p className="text-lg text-kerala-charcoal opacity-70 max-w-3xl mx-auto">
-            Real reviews from real people in Thalassery and surrounding areas. 
-            Your satisfaction is our success.
+          <p className="text-lg text-kerala-charcoal opacity-70 max-w-2xl mx-auto">
+            Real reviews from real people in Thalassery and surrounding areas.
           </p>
         </div>
 
         {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           {testimonials.map((testimonial, index) => (
             <Card 
               key={index} 
               className="bg-kerala-beige border-2 border-transparent hover:border-kerala-green transition-all duration-300 hover:shadow-lg"
             >
-              <CardContent className="p-6">
+              <CardContent className="p-8">
                 {/* Rating */}
-                <div className="flex items-center mb-4">
+                <div className="flex items-center mb-6">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <Star key={i} className="w-5 h-5 text-kerala-yellow fill-current" />
                   ))}
-                  <span className="ml-2 text-sm text-kerala-charcoal opacity-70">
+                  <span className="ml-3 text-sm text-kerala-charcoal opacity-70 bg-white px-2 py-1 rounded">
                     {testimonial.service}
                   </span>
                 </div>
 
                 {/* Testimonial Text */}
-                <p className="text-kerala-charcoal mb-4 italic leading-relaxed">
+                <p className="text-kerala-charcoal mb-6 italic leading-relaxed text-lg">
                   "{testimonial.text}"
                 </p>
 
                 {/* Customer Info */}
-                <div className="border-t border-gray-200 pt-4">
+                <div className="border-t border-gray-200 pt-6">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="font-semibold text-kerala-charcoal font-poppins">
+                      <p className="font-semibold text-kerala-charcoal font-poppins text-lg">
                         {testimonial.name}
                       </p>
                       <p className="text-sm text-kerala-charcoal opacity-70">
                         {testimonial.location}
                       </p>
                     </div>
-                    <div className="text-2xl">👤</div>
+                    <div className="text-3xl">👤</div>
                   </div>
                 </div>
               </CardContent>
@@ -90,19 +75,16 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* CTA */}
-        <div className="text-center mt-12">
-          <p className="text-lg text-kerala-charcoal opacity-70 mb-4">
-            Join hundreds of satisfied customers in Thalassery
-          </p>
-          <div className="flex items-center justify-center space-x-2">
+        {/* Simple Rating Display */}
+        <div className="text-center">
+          <div className="flex items-center justify-center space-x-2 mb-4">
             {[...Array(5)].map((_, i) => (
-              <Star key={i} className="w-6 h-6 text-kerala-yellow fill-current" />
+              <Star key={i} className="w-8 h-8 text-kerala-yellow fill-current" />
             ))}
-            <span className="ml-2 text-lg font-semibold text-kerala-charcoal">
-              4.9/5 Average Rating
-            </span>
           </div>
+          <p className="text-xl font-semibold text-kerala-charcoal">
+            4.9/5 Average Rating from 500+ customers
+          </p>
         </div>
       </div>
     </section>
