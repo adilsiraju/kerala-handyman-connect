@@ -34,7 +34,7 @@ const Contact = () => {
               </p>
               <Button 
                 className="w-full bg-kerala-green hover:bg-kerala-blue text-white"
-                onClick={() => window.open('https://wa.me/919876543210?text=Hi HandyKerala! I need help with...')}
+                onClick={() => window.open('https://wa.me/918113936995?text=Hi HandyKerala! I need help with...')}
               >
                 Chat Now
               </Button>
@@ -55,7 +55,7 @@ const Contact = () => {
               </p>
               <Button 
                 className="w-full bg-kerala-yellow hover:bg-kerala-orange text-kerala-charcoal"
-                onClick={() => window.open('tel:+919876543210')}
+                onClick={() => window.open('tel:+918113936995')}
               >
                 Call Now
               </Button>
@@ -182,14 +182,14 @@ const Contact = () => {
               size="lg"
               variant="outline"
               className="border-2 border-kerala-green text-kerala-green hover:bg-kerala-green hover:text-white px-8 py-4 rounded-xl"
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi! I have a question about HandyKerala services')}
+              onClick={() => window.open('https://wa.me/918113936995?text=Hi! I have a question about HandyKerala services')}
             >
               Ask a Question
             </Button>
             <Button 
               size="lg"
               className="bg-kerala-yellow hover:bg-kerala-orange text-kerala-charcoal px-8 py-4 rounded-xl"
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi! I need emergency service in Thalassery')}
+              onClick={() => window.open('https://wa.me/918113936995?text=Hi! I need emergency service in Thalassery')}
             >
               Emergency Help
             </Button>

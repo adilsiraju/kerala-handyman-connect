@@ -84,7 +84,7 @@ const ServicesPage = () => {
             <Button 
               size="lg"
               className="bg-kerala-green hover:bg-kerala-blue text-white px-8 py-4 rounded-xl"
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi! I want to book a service in Thalassery')}
+              onClick={() => window.open('https://wa.me/918113936995?text=Hi! I want to book a service in Thalassery')}
             >
               <MessageCircle className="w-5 h-5 mr-2" />
               Book Any Service
@@ -93,7 +93,7 @@ const ServicesPage = () => {
               size="lg"
               variant="outline"
               className="border-2 border-kerala-green text-kerala-green hover:bg-kerala-green hover:text-white px-8 py-4 rounded-xl"
-              onClick={() => window.open('tel:+919876543210')}
+              onClick={() => window.open('tel:+918113936995')}
             >
               <Phone className="w-5 h-5 mr-2" />
               Call Us Now
@@ -147,7 +147,7 @@ const ServicesPage = () => {
                   
                   <Button 
                     className="w-full bg-kerala-green hover:bg-kerala-blue text-white rounded-lg"
-                    onClick={() => window.open(`https://wa.me/919876543210?text=Hi! I need ${service.title} in Thalassery`)}
+                    onClick={() => window.open(`https://wa.me/918113936995?text=Hi! I need ${service.title} in Thalassery`)}
                   >
                     <Calendar className="w-4 h-4 mr-2" />
                     Book This Service
@@ -166,7 +166,7 @@ const ServicesPage = () => {
             <Button 
               size="lg"
               className="bg-kerala-yellow hover:bg-kerala-orange text-kerala-charcoal font-medium px-8 py-4 rounded-xl"
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi! I have an emergency service request in Thalassery')}
+              onClick={() => window.open('https://wa.me/918113936995?text=Hi! I have an emergency service request in Thalassery')}
             >
               <MessageCircle className="w-5 h-5 mr-2" />
               Emergency WhatsApp

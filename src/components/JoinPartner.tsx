@@ -100,16 +100,15 @@ const JoinPartner = () => {
                 <Button 
                   size="lg"
                   className="w-full bg-kerala-yellow hover:bg-kerala-orange text-kerala-charcoal font-medium py-4 rounded-xl"
-                  onClick={() => window.open('https://wa.me/919876543210?text=Hi! I want to join HandyKerala as a service partner. Please send me the registration details.')}
+                  onClick={() => window.open('https://wa.me/918113936995?text=Hi! I want to join HandyKerala as a service partner. Please send me the registration details.')}
                 >
                   <MessageCircle className="w-5 h-5 mr-2" />
                   Apply via WhatsApp
                 </Button>
-                
-                <p className="text-sm text-white/70">
+                  <p className="text-sm text-white/70">
                   Or call us at{' '}
-                  <a href="tel:+919876543210" className="text-kerala-yellow hover:underline font-medium">
-                    +91 98765 43210
+                  <a href="tel:+918113936995" className="text-kerala-yellow hover:underline font-medium">
+                    +91 81139 36995
                   </a>
                 </p>
               </div>

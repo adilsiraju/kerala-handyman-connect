@@ -64,15 +64,14 @@ const Footer = () => {
             <h4 className="text-lg font-semibold font-poppins mb-4">Contact Us</h4>
             <div className="space-y-3">
               <div className="flex items-center">
-                <Phone className="w-5 h-5 mr-3 text-kerala-yellow" />
-                <a href="tel:+919876543210" className="text-white/80 hover:text-kerala-yellow transition-colors">
-                  +91 98765 43210
+                <Phone className="w-5 h-5 mr-3 text-kerala-yellow" />                <a href="tel:+918113936995" className="text-white/80 hover:text-kerala-yellow transition-colors">
+                  +91 81139 36995
                 </a>
               </div>
               <div className="flex items-center">
                 <MessageCircle className="w-5 h-5 mr-3 text-kerala-yellow" />
                 <a 
-                  href="https://wa.me/919876543210" 
+                  href="https://wa.me/918113936995"
                   className="text-white/80 hover:text-kerala-yellow transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -123,12 +122,10 @@ const Footer = () => {
             <a href="#" className="text-white/70 hover:text-kerala-yellow transition-colors">Terms of Service</a>
             <a href="#" className="text-white/70 hover:text-kerala-yellow transition-colors">Cancellation Policy</a>
           </div>
-        </div>
-
-        {/* Emergency Notice */}
+        </div>        {/* Emergency Notice */}
         <div className="mt-8 bg-kerala-green/20 border border-kerala-green/30 rounded-xl p-4 text-center">
           <p className="text-kerala-yellow font-medium">
-            🚨 Emergency Services Available 24/7 - Call +91 98765 43210 or WhatsApp for immediate help
+            🚨 Emergency Services Available 24/7 - Call +91 81139 36995 or WhatsApp for immediate help
           </p>
         </div>
       </div>
